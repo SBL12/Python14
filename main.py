@@ -15,7 +15,7 @@ def take_average():
 
 while True:
   answer = input('Enter a number, type "stop" to take the avarage:')
-  if answer == 'stop':
+  if (answer == 'stop'):
     take_average()
     break
   else:
